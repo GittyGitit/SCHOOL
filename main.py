@@ -21,7 +21,7 @@ import tempfile  # 임시 파일 생성 및 관리 모듈
 def main():
     # 페이지 설정 (Streamlit 상단 바 구성)
     st.set_page_config(page_title="학교생활기록부기재요령", page_icon="🌻")  # 웹 페이지 제목과 아이콘 설정
-    st.image('energy.png')  # 상단에 이미지를 표시
+    st.image('월계초등학교.png')  # 상단에 이미지를 표시
     st.title("_:blue[학교생활기록부 기재요령 챗봇]_ 🏫")  # 제목 표시 (학교생활기록부 기재요령)
     st.header("챗봇이 답변하지 못하는 것이 있을 경우, 4-1반으로 전화주세요!●'◡'●", divider='rainbow')  # 주의사항 표시
 
